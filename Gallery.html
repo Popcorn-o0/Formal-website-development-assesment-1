@@ -1,0 +1,134 @@
+
+<link rel="stylesheet" href="galleryCSS.css">
+<script src="JSGallery.js"></script>
+<body background="bg.jpg" >
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+    </style>
+  <section>
+    <input type="checkbox" id="check">
+            <header>
+              <!--logo-->
+              <div class="trans">
+              <h2 style="color: rgb(17, 132, 234);"> <a href="Landing Page.html" class="logo">UNTITLED GOOSE GAME</a></h2>
+              </div>
+              <div class="navigation">
+                <a href="Home.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="form.html">Database</a>
+  
+            </div>
+              <label for="check">
+                  <i class="fas fa-bars menu-btn"></i>
+                  <i class="fas fa-times close-btn" style="color: rgb(22, 21, 21);"></i>
+              
+                </label>
+              
+          </header>
+    
+    <br>
+
+<h1 style="color:#ff8383;" > On this page you can view a slideshow of pictures of the game<br> and a few videos on youtube about the game :)</h1>
+
+<br>
+<br>
+<br>
+
+
+    <div style="margin: top 10000px; ;">
+    <iframe width="370" height="315"
+src="https://www.youtube.com/embed/i7QkGRl517E">
+</iframe>
+<iframe width="370" height="315" 
+src="https://www.youtube.com/embed/V-Z_ubqoyUw">
+</iframe>
+<iframe width="370" height="315" src="https://www.youtube.com/embed/owkkiFr2n9w">
+</iframe>
+<iframe width="370" height="315" src="https://www.youtube.com/embed/qqfwSzvyngc"></iframe>
+</div>
+<h3 style=color:#ffacac;>Slideshow Below:</h3>
+<p>Click an image to open show</p>
+</section>
+
+<footer style = "position: absolute; bottom: 0%; background-color: #727272;">
+
+  <div class="media-icons">
+    <a href="https://www.facebook.com/TheUntitledGooseGame/"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/house_house_?lang=en"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/untitledgoosegame/?hl=en"><i class="fab fa-instagram"></i></a>
+
+  </div>
+          <div class="style">
+            <h5 style="text-align: center;">
+              Copyright &copy; Megan Butler 2022
+            </h5>
+          </div>
+    </footer>
+</body>
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="slideshow1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="slideshow2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="slideshow3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="slideshow4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="slideshow7.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="slideshow6.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="slideshow1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Peace was never an OPTION!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="slideshow301.jpg" style="width:100%" onclick="currentSlide(2)" alt="Creators Image">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="slideshow3.jpg" style="width:100%" onclick="currentSlide(3)" alt="RUNNNNN!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="slideshow4.jpg" style="width:100%" onclick="currentSlide(4)" alt="'Yummy Sandwhich'">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="slideshow5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Picnic Chaos">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="slideshow6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Honks at the Horde">
+    </div>
+  </div>
+</div>

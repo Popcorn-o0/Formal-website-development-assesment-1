@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>GameCenter</title>
+		<link href = "form.css" rel = "stylesheet"/>
+        <!--bootstrap classes-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src = "add.js" defer></script>
+        <script src = "delete.js" defer></script>
+        <script src = "display.js" defer></script>
+
+
+		<style>
+			h1 {text-align: center;}
+			p {text-align: center;}
+			div {text-align: center;}
+			</style>
+    </head>
+
+	<input type="checkbox" id="check">
+        <header>
+            <!--logo-->
+            <div class="trans">
+            <h2 style="color: rgb(150, 206, 255);"> <a href="Landing Page.html" class="logo">UNTITLED GOOSE GAME</a></h2>
+        </div>
+            <div class="navigation">
+              <a href="Home.html">Home</a>
+              <a href="About.html">About</a>
+              <a href="Contact.html">Contact</a>
+              <a href="Gallery.html">Gallery</a>
+              <a href="form.html">Database</a>
+
+          </div>
+            <label for="check">
+                <i class="fas fa-bars menu-btn"></i>
+                <i class="fas fa-times close-btn" style="color: rgb(223, 141, 255);"></i>
+            
+              </label>
+            
+        </header>np
+	<body background-image="oooo.jpg">
+        <div id = "alertSuccess" class="alert alert-success">
+            
+        </div>
+       <div style="color:rgb(192, 240, 196) ;" >
+		<b>
+	    <form name = "forms1" id = "forms1" style="position:ceneter ;">
+	        <h1 style = "font-size: 20px;">Add a game for our DATABASE!</h1>
+
+		    <label for ="gamename" class="form-group">The Game Name: 
+		        <br>
+		        <input id = "gamename" class="form-control" type = "text" name = "name" required>
+            </label>
+	     	<br>
+		    <label for ="gametype" class="form-group">The Game Type: 
+		       	<br>
+	            <input id = "gametype" class="form-control" type = "text" name = "type" required>
+            </label>
+            <br>
+            <label for ="gamerating" class="form-group">The Game Rating: 
+                <br>
+             <input id = "gamerating" class="form-control" type = "text" name = "rating" required>
+            </label>
+	        <br>
+		    <input  id = "submit" class="btn btn-info" type = "submit" value = "Add">
+	    </form>
+        <hr>
+		<div id = "woah">
+            <h3>Display data</h3>
+		</b>
+        </div>
+	</div> 
+		
+	</body>
+</html>
